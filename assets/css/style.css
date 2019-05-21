@@ -152,7 +152,7 @@
     }
     /* text openin page */
     h2, h3 {
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Minnie';
         margin: 10px;
         color: black;
         text-align: center;
@@ -317,7 +317,7 @@
         font-family: 'Mickey';
         font-style: normal;
         font-weight: normal;
-        src: local('Mickey'), url('MICKEY.woff') format('woff');
+        src: local('Mickey'), url('../index.html') format('woff');
     }
 
 
@@ -325,7 +325,7 @@
         font-family: 'Minnie';
         font-style: normal;
         font-weight: normal;
-        src: local('Minnie'), url('index.html') format('woff');
+        src: local('Minnie'), url('../index.html') format('woff');
     }
     /* .contactForm{
         width: 100%;
