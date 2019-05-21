@@ -1,0 +1,393 @@
+
+<!doctype <!DOCTYPE html>
+
+<html class="animated fadeIn">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/png" href="assets/images/beerIcon.jpg">
+    <title>Drinks Around the World!</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- reset css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- link to font -->
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Dosis:400,600,700,800|Montserrat:400,500|Raleway:400,500" rel="stylesheet">
+    <!-- link to css -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/animate.css" />
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <!-- firebase call -->
+    <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+    <script>
+            ScrollReveal({ duration: 1000 })
+    </script>
+    
+</head>
+<body>
+    <!-- intro page -->
+
+    
+
+        <div id="top-page" class="row  intropage top-search-container">
+          
+            <div class="container col-lg-12 top-search-container">    
+                <h1>Drinking Around the World!</h1>
+                    <h2>Select your Avatar</h2>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm">
+                            <a href="#pagetwo"><img class='images main-img' src='assets/images/main_100_white.png'
+                            alt='Main Page'></a>
+                            <h3>
+                                Kevin
+                            </h3>
+                        </div>
+                        <div class="col-sm">
+                            <a href="#pagetwo"><img class='images main-img'
+                                src='assets/images/main_100_white.png'
+                                alt='Main Page'></a>
+                            <h3>
+                                Mike
+                            </h3>
+                        </div>
+                        <div class="col-sm">
+                            <a href="#pagetwo"><img
+                                class='images main-img'
+                                src='assets/images/main_100_white.png'
+                                alt='Main Page'></a>
+                            <h3>
+                                Bruna
+                            </h3>
+                        </div>
+                    <!-- input form -->
+                    <!-- <form id="event-form" class="col-sm-12 search2">
+                            <input id="search-btn" class="submitBtn" type="submit" value="Search"><input type="text" id="search-input" placeholder=" ex. music orlando">
+                    </form> -->
+                    <!-- <div class="error"></div> -->
+                    </div>
+            </div>
+            <div class="col-sm"></div>
+        </div>
+    
+    
+
+    <!-- menu at the top of the main page  / anchor tag -->
+    <div id="pagetwo">
+    <a href="#" id="pagetwo"></a>
+    <main id="align" class="container-fluid">
+            <div class="row menubar">
+                <div class="avatar col-lg-1 menutwo"></div>
+                <div class="col-lg-11 menutwo text-center">
+                    <h1>Unfinished Beersness</h1>
+                    <!-- <a href="#top-page"><img class='images home-img' src='assets/images/home_100_white.png' alt='Home Page'></a>
+                    <a href="#pagetwo"><img class='images main-img' src='assets/images/main_100_white.png' alt='Main Page'></a>
+                    <a href="#pagethree"><img class='images wish-img' src='assets/images/heart_menu_empty_white.png' alt='Wish List Page'></a> -->
+                    <!-- <form id="event-formtwo" class="col-sm-12 search2">
+                            <input id="search-btntwo" class="submitBtn" type="submit" value="Search"><input type="text" id="search-inputtwo" placeholder=" ex. music orlando">
+                    </form> -->
+                </div>
+            </div>
+        <!-- <div class="container"> -->
+        <!-- div to display the cards with the results -->
+        <!-- <div id="align" class="col-md-12"></div> -->
+            <div class="row">
+                
+                    <a href="#pagethree" class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </a>
+                
+                    <a href="#pagethree" class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </a>
+                
+                    <a href="#pagethree" class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </a>
+                
+                    <a href="#pagethree" class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </a>
+                
+            
+                
+                    <a href="#pagethree" class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </a>
+               
+                    <a href="#pagethree" class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </a>
+               
+                    <a href="#pagethree" class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </a>
+            
+                    <a href="#pagethree" class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </a>
+                
+            
+                
+                    <a href="#pagethree" class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </a>
+           
+                    <a href="#pagethree" class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </a>
+               
+                    <a href="#pagethree" class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+        <!-- </div> -->
+            <!-- div for results -->
+            <!-- <div id="results" class="col-md-10 results-div">
+            </div>
+            <div class="col-md-1 scroll-right align-middle p-0">
+            </div> -->
+    </div>
+        </div>
+         <!-- div to display the cards with the wish list  / anchor-->
+            
+                <!-- div for wishlist -->
+</div>
+<div id="pagethree">
+    <a href="#" id="pagethree"></a>
+        <div class="row menubar">
+            <div class="avatar col-lg-1 menutwo"></div>
+            <div class="col-lg-11 menutwo text-center">
+                <h1>Completed</h1>
+            </div>
+        </div>
+        <div class="row-sm-3 completed">
+            <!-- <div class="col-lg-12 arrow-up-div completed"></div> -->
+            <!-- <div id="wishList" class="col-md-10 wishList-div completed"></div> -->
+            <!-- <div class="col-sm-3 completed"></div>  -->
+            <!-- <div class="col-sm-3 completed"></div>
+            <div class="col-sm-3 completed"></div> -->
+        </div>
+    </div>
+        
+
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>    
+    <script type="text/javascript">
+
+        // firebase database initail info
+
+ var config = {
+     apiKey: "AIzaSyB9xsQNrAPMVuv6eioGiBsjI3yuYA4SvGs",
+     authDomain: "epcot-beer-around-the-world.firebaseapp.com",
+     databaseURL: "https://epcot-beer-around-the-world.firebaseio.com",
+     projectId: "epcot-beer-around-the-world",
+     storageBucket: "epcot-beer-around-the-world.appspot.com",
+     messagingSenderId: "1063990427338",
+  };
+
+  firebase.initializeApp(config);
+
+  var dataRef = firebase.database();
+
+//   function to create a ramdom id number for user
+
+  function userIdNumber() {
+  return '_' + Math.random().toString(36).substr(2, 9);
+};
+
+//  check if user already has an id, if not create one and store it in local storage
+var eventUserId = localStorage.getItem("userId");
+
+            if (eventUserId == null){
+            eventUserId = userIdNumber();
+            localStorage.setItem("userId", eventUserId);
+            var userId = eventUserId;
+            console.log(eventUserId)
+            console.log(userId)
+
+            } else {
+    
+            var userId = eventUserId;
+            
+            }
+
+
+
+// start here - need to add cards to completed section and make sure app will remember each user's completed tasks
+    
+    var cardUpdate = "";
+    var avatarUpdate = "";
+
+//remove card from page two and add to page three
+
+$(document).ready(function(){
+    cardUpdate = $(".card").click(function(){
+        $(this).remove();
+        $(this).appendTo(".completed");
+    });
+});
+console.log("Card Update: " + cardUpdate);
+
+// Add avatar image to page 2 and page 3
+
+ $(document).ready(function(){
+    avatarUpdate = $("img").click(function(){
+        $(this).appendTo(".avatar");
+    });
+});    
+
+
+// push to firebase
+dataRef.ref('users/' + userId).push({
+    userId: userId,
+    cardUpdate: cardUpdate,
+    avatarUpdate: avatarUpdate,
+});
+
+  
+
+// retrieve info from database
+dataRef.ref('users/' + userId + '/').on("child_added", function (childSnapshot) {
+
+// Log everything that's coming out of snapshot
+console.log(childSnapshot.val().userId);
+console.log(childSnapshot.val().cardUpdate);
+console.log(childSnapshot.val().avatarUpdate);
+
+$(".card").click(function () {
+    $(this).remove();
+    $(this).appendTo(".completed");
+});
+
+// $("img").click(function () {
+//     $(this).appendTo(".avatar");
+// });
+
+// Handle the errors
+}, function (errorObject) {
+    console.log("Errors handled: " + errorObject.code);
+});
+
+dataRef.ref().orderByChild("dateAdded").limitToLast(1).on("child_added", function (snapshot) {
+
+    // Change the HTML to reflect
+    $(".completed").text(snapshot.val().card);
+});
+                            
+
+                        // // display info from data base into the card divs (look original card to see info about divs for the card)
+
+                        // eachEventCard = $("<div class='card mb-4 wish' style='width: 18rem;'>").attr("data-wishId", snapshot.val().eventId
+                        // )
+                        // eventImg = $("<img class='card-img-top card-image m-0' alt='Card image cap'>").attr("src", snapshot.val().eventImg);
+
+                        // cardBody = $("<div class='card-body m-0'>");
+                        //     eventTitle = $("<p class='card-title'>").attr("data-value", i).attr("data-id", snapshot.val().eventId);
+                        // eventTitle.text(snapshot.val().eventTitle);
+                        //     cardBody.append(eventTitle)
+                        // cardList = $("<ul class='list-group list-group-flush'>")
+                        //     // displayDate = moment(response._embedded.events[i].dates.start.dateTime).format("dddd, MMMM Do YYYY, h:mm a");
+                        //     eventDate = $("<li class='list-group-item card-date'>").text(snapshot.val().displayDate);
+
+                        //     eventVenue = $("<li class='list-group-item p-1 card-venue'>").text(snapshot.val().eventVenue);
+
+                        //      eventCity = $("<li class='list-group-item p-1 card-city'>").text(snapshot.val().eventCity);
+
+                        //     cardList.append(eventDate,eventVenue,eventCity)
+
+                        // cardLinks = $("<div class='card-body links card-tix'>");
+                        //     eventTix = $("<a href=" + snapshot.val().eventTix + " class='card-link tix-link' target='_blank'><img class='images' src='assets/images/tix_75.png' alt='uber icon' style='width:60px;height:40px;'></a>");
+                            
+//                             uberLink = $("<a href=https://m.uber.com/?client_id=xS6Oh5A9Wn91MhNKDTP4_9vQSmBn5zYA&action=setPickup&pickup[nickname]=MyLocation&pickup[my_location]=1455%20Market%20St%2C%20San%20Francisco%2C%20CA%2094103&dropoff[latitude]="+snapshot.val().eventLatitude+"&dropoff[longitude]="+snapshot.val().eventLongitude+"&dropoff[nickname]="+snapshot.val().addressEncoded+"&dropoff[formatted_address]=1%20Telegraph%20Hill%20Blvd%2C%20San%20Francisco%2C%20CA%2094133&product_id=a1111c8c-c720-46c3-8534-2fcdd730040d&link_text=View%20team%20roster&partner_deeplink=partner%3A%2F%2Fteam%2F9383'default.asp target='_blank class='card-link'><img class='images' src='assets/images/uber_75B.png' alt='uber icon' style='width:75px;height:20px;'></a>");
+
+                    //         deleteFav = $("<img class='delFav' alt='Remove Icon'>").attr("src","assets/images/delete_60.png").attr('data-id', snapshot.key).attr("data-cardId",(snapshot.val().eventId))
+
+                    //         cardLinks.append(uberLink, eventTix, deleteFav)
+
+                    //     eachEventCard.append(eventImg,cardBody,cardList,cardLinks)
+                    //     // display results
+                    //     $("#wishList").append(eachEventCard);  
+                        
+                    //     // statement to add wish list content and to change the wish list icon on the main menu  
+                    //     var idWish = snapshot.val().eventId;
+                    
+                    //         if (idWish == null) {
+                    //         $(".wishListTitle").empty()
+                    //         $(".wish-img").attr("src", "assets/images/heart_menu_empty_white.png")
+                    //         } else {
+                    //         $(".wishListTitle").html("<h1> Wish List</h1>")
+                    //         $(".arrow-up-div").html("<a href='#pagetwo'><img class='arrow-up' src='assets/images/arrow_white_100.png' alt='scroll up'></a>")
+                    //         $(".wish-img").attr("src", "assets/images/heart_menu_filled_white.png")
+                            
+                    //         } 
+                        
+                    //         // Handle the errors
+                    //         }, function(errorObject) {
+                    //         console.log("Errors handled: " + errorObject.code);
+                    //     });
+                    // // to remove the items from the wish list. Both, from page and also from database
+                    //     $(document).on("click",".delFav", function(){
+                    //         var id = $(this).attr('data-id')
+                    //         $(this).parents(".wish").remove();
+                    //         dataRef.ref().child("users").child(userId).child(id).remove() 
+
+                    //         var wishDelete = $(".wish").attr("data-wishid")
+
+                    //         if (wishDelete === undefined){
+                    //         $(".wishListTitle").empty()
+                    //         $(".arrow-up-div").empty()
+                    //         $(".wish-img").attr("src", "assets/images/heart_menu_empty_white.png")
+                    //         window.location.href='#pagetwo'
+                               
+                    //         }
+
+                    //     })
+                        
+
+    </script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
