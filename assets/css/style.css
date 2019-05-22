@@ -18,6 +18,10 @@
         opacity: 0.4;
     }      
     
+    /* .avatar {
+        height: 50px;
+        width: 70px;
+    } */
     #pagetwo,
     #pagethree {
         background-image: url("../images/mickeyDrinkingBeer_opacity0.3.png");
@@ -58,38 +62,41 @@
         margin-left: auto;
         margin-right: auto;
         background-color:transparent;
-        box-shadow: 5px 5px 20px rgb(49, 49, 49)
-
     }
+
+    
     /* card image */
     .card-image {
-        height: 160px;
         border-radius: 20% 0 0 0;
+        width: 100%;
+        height: 85%;
     }
+
+    
     /* card body - all below image */
     .card-body{
-        border-right: solid 1px rgb(0, 0, 0);
-        border-left: solid 1px rgb(0, 0, 0);
+        /* border-right: solid 1px rgb(0, 0, 0);
+        border-left: solid 1px rgb(0, 0, 0); */
         padding: 10px;
         height: 10px;
-        background-color: rgb(66, 65, 65, 0.8);
+        background-color:transparent;
     }
 
     /* card title */
     .card-title {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 1em;
-        height: 50px;
-        color: whitesmoke;
+        font-family: 'Minnie';
+        /* font-size: 1em;
+        height: 50px; */
+        color: black;
         text-align: center;
-        margin:0;
+        /* margin:0; */
         font-weight: 500;
         }
 
 
     /* card date */
     .card-date{
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Minnie';
         font-size: 0.8em;
         text-align: center;
         font-weight:500;
@@ -99,7 +106,7 @@
     }
     /* card venue */
     .card-venue{
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Minnie';
         font-size: 1em;
         text-align: center;
         font-weight:500;
@@ -108,7 +115,7 @@
     }
     /* card city */
     .card-city{
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Minnie';
         font-size: 1em;
         text-align: center;
         font-weight:500;
@@ -142,7 +149,6 @@
     }
     /* title opening page */
     h1 {
-        /* font-family: 'Abril Fatface', cursive; */
         font-family: 'Minnie';
         font-size: 50px;
         margin-bottom: 70px;
@@ -157,12 +163,17 @@
         color: black;
         text-align: center;
         font-weight: bold;
+        font-size: 40px;
     }
+    /* .flag {
+        width: 100%;
+        height: 85%;
+    } */
     .col-sm {
         text-align: center;
     }
     .error {
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Minnie';
         margin-top: 10px;
         margin-right:10px;
         text-align: right;
@@ -173,7 +184,7 @@
     /* submit button opening page */
     .submitBtn {
         margin: 10px 10px;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Minnie';
         font-size: 1em;
         color: white;
         padding: 5px 9px;
@@ -222,7 +233,7 @@
     /* submit button main page */
     #search-btntwo {
         margin: 0px 10px 0px -15px;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Minnie';
         font-size: 0.8em;
         color: white;
         padding: 3px 9px;
@@ -293,7 +304,7 @@
         margin-top: 20px;
         display: inline-flex;
         justify-content: center;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Minnie';
 
     }
 
