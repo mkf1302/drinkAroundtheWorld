@@ -123,14 +123,14 @@ h3 {
     font-family: 'Mickey';
     font-style: normal;
     font-weight: normal;
-    src: local('Mickey'), url('../index.html') format('ttf');
+    src: local('Mickey'), url('https://mkf1302.github.io/drinkAroundtheWorld/') format('ttf');
 }
 
 @font-face {
     font-family: 'Minnie';
     font-style: normal;
     font-weight: normal;
-    src: local('Minnie'), url('../index.html') format('ttf');
+    src: local('Minnie'), url('https://mkf1302.github.io/drinkAroundtheWorld/') format('ttf');
 }
 
 @media screen and (max-width: 640px) {
@@ -200,13 +200,13 @@ h3 {
         font-family: 'Mickey';
         font-style: normal;
         font-weight: normal;
-        src: local('Mickey'), url('../index.html') format('woff');
+        src: local('Mickey'), url('https://mkf1302.github.io/drinkAroundtheWorld/') format('woff');
     }
 
     @font-face {
         font-family: 'Minnie';
         font-style: normal;
         font-weight: normal;
-        src: local('Minnie'), url('../index.html') format('woff');
+        src: local('Minnie'), url('https://mkf1302.github.io/drinkAroundtheWorld/') format('woff');
     }
 }
