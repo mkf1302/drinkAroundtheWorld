@@ -145,7 +145,7 @@ h3 {
     /* title opening page */
     h1 {
         font-family: "Comic Sans MS", Comic Sans;
-        font-size: 30px;
+        font-size: 40px;
         margin-bottom: 70px;
         color: black;
         text-align: center;
@@ -159,7 +159,7 @@ h3 {
         color: black;
         text-align: center;
         font-weight: bold;
-        font-size: 15px;
+        font-size: 30px;
     }
 
     h3 {
@@ -168,7 +168,7 @@ h3 {
         color: black;
         text-align: center;
         font-weight: bold;
-        font-size: 10px;
+        font-size: 25px;
     }
 
     .card {
