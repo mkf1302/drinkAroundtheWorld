@@ -82,7 +82,7 @@ html {
 
 /* title opening page */
 h1 {
-    font-family: "Comic Sans MS", Comic Sans;
+    font-family: "Comic Sans MS";
     font-size: 70px;
     margin-bottom: 70px;
     color: black;
@@ -92,7 +92,7 @@ h1 {
 
 /* text openin page */
 h2 {
-    font-family: "Comic Sans MS", Comic Sans;
+    font-family: "Comic Sans MS";
     margin: 10px;
     color: black;
     text-align: center;
@@ -101,7 +101,7 @@ h2 {
 }
 
 h3 {
-    font-family: "Comic Sans MS", Comic Sans;
+    font-family: "Comic Sans MS";
     margin: 10px;
     color: black;
     text-align: center;
@@ -144,7 +144,7 @@ h3 {
 
     /* title opening page */
     h1 {
-        font-family: "Comic Sans MS", Comic Sans;
+        font-family: "Comic Sans MS";
         font-size: 40px;
         margin-bottom: 70px;
         color: black;
@@ -154,7 +154,7 @@ h3 {
 
     /* text openin page */
     h2 {
-        font-family: "Comic Sans MS", Comic Sans;
+        font-family: "Comic Sans MS";
         margin: 10px;
         color: black;
         text-align: center;
@@ -163,7 +163,7 @@ h3 {
     }
 
     h3 {
-        font-family: "Comic Sans MS", Comic Sans;
+        font-family: "Comic Sans MS";
         margin: 10px;
         color: black;
         text-align: center;
